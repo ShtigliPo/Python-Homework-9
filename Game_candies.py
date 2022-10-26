@@ -33,7 +33,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             number_candies.append(b)
             await update.message.reply_text(f'На столе осталось {b} конфет\nТвой ход\nНабери /s и количество конфет')
 
-number_candies = [221]
+number_candies = [2021]
 
 # Функция игры
 
