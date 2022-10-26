@@ -4,7 +4,7 @@ from Bot_commands import *
 from Game_candies import *
 
 app = ApplicationBuilder().token(
-    "5625248080:AAHiGIicKv-43hzhWTIQglwVfbHeehMRO54").build()
+    "YOUR TOKEN").build()
 
 app.add_handler(CommandHandler("hi", hi_command))
 app.add_handler(CommandHandler("help", help_command))
